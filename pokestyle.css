@@ -112,7 +112,8 @@ body{
 .boton_arrow{
     float: left;
     margin-top: 643px;
-    margin-left: 259px;
+    margin-left: 390px;
+    position: absolute;
 
 }
 

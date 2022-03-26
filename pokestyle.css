@@ -1,0 +1,155 @@
+body{
+    background-image:url("images/pokedex.jpg");
+    background-repeat: no-repeat;
+    background-size: 1250px;
+
+}
+.poke_image{
+    
+    position: absolute;
+    float: left;
+    margin-top: 265px;
+    margin-left: 175px;
+}
+
+.pokeSearch{
+    position: absolute;
+    float: left;
+    margin-top: 680px;
+    margin-left: 150px;
+}
+
+
+
+.pokeSearch text{
+    padding: 10px;
+}
+
+
+/* CSS */
+.pokeSearch .button {
+  background-color: #ffffff;
+  border-radius: 100px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.pokeSearch .button:hover {
+  box-shadow: rgba(216, 130, 122, 0.35) 0 -25px 18px -14px inset,rgba(187, 44, 44, 0.25) 0 1px 2px,rgba(187, 44, 44, 0.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(187, 56, 44, 0.25) 0 8px 16px,rgba(41, 25, 20, 0.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+.poke_info{
+    position: absolute;
+    float: left;   
+    width: 450px;
+    height: 600px;
+    overflow: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 250px;
+    margin-left: 700px;
+    padding-left: 50px;
+}
+.poke_info img{
+    float: left;
+}
+.poke_info h1{
+    font-size: 25px;
+    color: #bd0f34;
+    margin-top: 35px;
+    margin-left: 30px;
+}
+.poke_info h2{
+    font-size: 15px;
+    font-family: arial;
+}
+.poke_info p{
+    
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 100px;
+}
+
+
+.poke_title{
+    position: absolute;
+    float: left;
+    color: #d32727;
+    margin-top: 550px;
+    margin-left: 240px;
+    font-size: 12px;
+}
+
+.boton_select{
+    float: left;
+    margin-top: 630px;
+    margin-left: 50px;
+
+}
+.boton_select .redondo{
+    background-color: #000000;
+    color: #fff;
+    display: block;
+    width: 83px;
+    height: 83px;
+    border-radius: 50%;
+    text-align: center;
+}
+.boton_select .redondo:hover{background-color: #727070;color: #fff;border-radius: 50%;}
+
+.boton_arrow{
+    float: left;
+    margin-top: 643px;
+    margin-left: 259px;
+
+}
+
+.boton_arrow .redondo{
+    margin: 10px;
+    background-color: #000000;
+    color: #fff;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+}
+.boton_arrow .redondo:hover{background-color: #727070;color: #fff;border-radius: 50%;}
+.boton_arrow .arrow {
+    border: solid rgb(255, 255, 255);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  
+  .boton_arrow .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+  
+  .boton_arrow .left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
+  
+  .boton_arrow .up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+  }
+  
+  .boton_arrow .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }

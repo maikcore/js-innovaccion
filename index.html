@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="pokestyle.css">
+    <link rel="icon" href="data:;base64,=">
+    <title>Pokedex</title>
+</head>
+<body>
+
+    <div id="info" class="poke_info">
+
+    </div>
+
+    <div class="poke_image" >
+        <img src="" alt="pokemon" width="250" height="250" id="pokeImg">
+    </div>
+
+    <div class="poke_title">
+        <h1 id="pokeData">NOMBRE DEL POKEMON</h1>
+    </div>
+    
+    <div class="boton_select" id="select">
+        <button onclick="prueba()" class="redondo" >SELECT</button>
+    </div>
+
+    <div class="boton_arrow">
+        <table>
+            <tr>
+                <td></td>
+                <td><button class="redondo"><i class="arrow up"></i></button></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><button onclick="cambiaPokemonLess()" class="redondo"><i class="arrow left"></i></button></td>
+                <td></td>
+                <td><button onclick="cambiaPokemonPlus()" class="redondo"><i class="arrow right"></i></button></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><button class="redondo"><i class="arrow down"></i></button></td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="pokeSearch">
+        <input style="padding: 10px; margin-bottom: 10px;"  type="text" id="fname" name="fname" placeholder="Busqueda por nombre" ><br>
+        <input class="button" onclick="cambiaPokemonText()" style="padding: 10px;" type="submit" value="Buscar">
+    </div>
+
+
+</body>
+<footer>
+    <script src="pokedex.js"></script>
+</footer>
+</html>
